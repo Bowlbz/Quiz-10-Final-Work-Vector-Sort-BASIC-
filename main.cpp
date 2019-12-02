@@ -16,8 +16,9 @@ int main()
   
   sort(quizVector.begin(), quizVector.end());
 
-  for (double x : quizVector)
+  for (double x : quizVector) //FOR LOOP to DISPLAY DATA
   {
+    cout << "Question 3: Final Exam " << endl;
     cout << "\n" << x << endl;
   }
   
